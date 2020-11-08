@@ -85,7 +85,8 @@ body {
 }
 
 #intro .content .i-line p {
-  color: var(--ftxtLH);
+  margin-top: 1rem;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 #intro .arrow-btn {
@@ -819,6 +820,10 @@ footer .social-media .social-wrapper li a i {
   .sec-container {
     width: 100vw;
   }
+  #intro {
+    background-color: #000;
+    background-position: -50px -25px;
+  }
   #skills .skills-box-wrapper {
     width: 100vw;
   }
@@ -861,9 +866,14 @@ footer .social-media .social-wrapper li a i {
   }
   #intro {
     padding: 0 1rem;
+    background-position: -100px -25px;
   }
   #intro .content .i-line h1 {
     font-size: 2.5rem;
+  }
+  #intro .content .i-line p {
+    margin-top: 0.5rem;
+    color: rgba(255, 255, 255, 0.8);
   }
   #intro .arrow-btn {
     width: calc(100% - 1rem);
@@ -924,3 +934,4 @@ footer .social-media .social-wrapper li a i {
     width: calc(100vw - 3rem);
   }
 }
+/*# sourceMappingURL=styles.css.map */
