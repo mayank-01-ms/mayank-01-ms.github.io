@@ -1,0 +1,38 @@
+body[data-theme="light"] {
+  --bg: #fff;
+  --mbg: #fff;
+  --primaryAction: dodgerblue;
+  --borderArrow: black;
+  --borderArrow: #fff;
+  --txtH: rgba(0, 0, 0, 0.9);
+  --txtM: rgba(0, 0, 0, 0.8);
+  --txtL: rgba(0, 0, 0, 0.5);
+  --link: black;
+  --bshadow: rgba(0, 0, 0, 0.1);
+  --progressBar: #eee;
+  --fbg: #333;
+  --ftxtH: rgba(255, 255, 255, 0.95);
+  --ftxtL: rgba(255, 255, 255, 0.55);
+  --borderBottom: rgba(0, 0, 0, 0.2);
+  --gradient: linear-gradient(45deg, #09c6f9, #045de9);
+}
+
+body[data-theme="dark"] {
+  --bg: #272727;
+  --mbg: #111111;
+  --primaryAction: dodgerblue;
+  --borderArrow: black;
+  --borderArrow: #fff;
+  --txtH: rgba(255, 255, 255, 0.9);
+  --txtM: rgba(255, 255, 255, 0.8);
+  --txtL: rgba(255, 255, 255, 0.65);
+  --link: #fff;
+  --bshadow: rgba(255, 255, 255, 0);
+  --progressBar: #333;
+  --fbg: #333;
+  --ftxtH: rgba(255, 255, 255, 0.95);
+  --ftxtL: rgba(255, 255, 255, 0.55);
+  --borderBottom: rgba(255, 255, 255, 0.2);
+  --gradient: linear-gradient(45deg, #09c6f9, #045de9);
+}
+/*# sourceMappingURL=color.css.map */
