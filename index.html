@@ -9,9 +9,9 @@
     <meta name="keywords" content="Mayank Singh, portfolio, student, web developer, programmer, tech at glance, nexus, moderator, UI/UX designer" />
     <meta property="og:title" content="Mayank - Portfolio " />
     <meta property="og:description" content="Hi, I am Mayank Singh. Welcome to my portfolio" />
-    <meta name="og:image" content="https://mayank-01-ms.github.io/portfolio/images/bg.jpg" />
+    <meta name="og:image" content="https://mayank-01-ms.github.io/images/vector.jpeg" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://mayank-01-ms.github.io/portfolio/">
+    <meta property="og:url" content="https://mayank-01-ms.github.io/">
     <meta name="og:site_name" content="Mayank Singh" />
     <meta name="google" content="notranslate" />
 
@@ -19,7 +19,17 @@
     <link rel="stylesheet" href="css/color.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="icon" type="image/jpg" href="https://mayank-01-ms.github.io/portfolio/images/bg.jpg" />
+    <link rel="icon" type="image/jpg" href="https://mayank-01-ms.github.io/images/vector.jpeg" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5BM67Y9QK1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5BM67Y9QK1');
+    </script>
     <title>Mayank's Portfolio</title>
 </head>
 
@@ -70,7 +80,14 @@
             <section id="about" class="sec-container" data-aos="fade-up">
                 <header class="sec-title">
                     <h2>About Me</h2>
-                    <p>Something about myself</p>
+                    <p data-aos="fade-up">
+                        Hi there,
+                        My name is Mayank Singh. I'm a  student, whose passion is to create and lauch beautiful and intuitive projects. 
+                    </p>
+                    <p data-aos="fade-up">
+                        I'm tech enthusiastic and I love to explore new things. 
+                        Designing beautiful User interfaces has been my hobby since 2020. Scroll down to know more about me. ✌🏻
+                    </p>
                 </header>
                 <div class="content">
                     <div class="profile-image">
@@ -86,7 +103,7 @@
                 </header>
                 <div class="content">
                     <div class="skills-box-wrapper">
-                        <div class="skills-box">
+                        <div class="skills-box" data-aos="fade-up">
                             <h3>Concepts</h3>
                             <ul class="skills-list">
                                 <li data-aos="fade-up">
@@ -112,7 +129,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="skills-box">
+                        <div class="skills-box" data-aos="fade-up">
                             <h3>Programming Languages</h3>
                             <ul class="skills-list">
                                 <li data-aos="fade-up">
@@ -138,7 +155,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="skills-box">
+                        <div class="skills-box" data-aos="fade-up">
                             <h3>Web Development</h3>
                             <ul class="skills-list">
                                 <li data-aos="fade-up">
@@ -159,7 +176,7 @@
                                     <p>SAAS</p>
                                     <p>40%</p>
                                     <div class="skill-progress-bar">
-                                        <div class="skill-progress" style="width: 90%;"></div>
+                                        <div class="skill-progress" style="width: 40%;"></div>
                                     </div>
                                 </li>
                                 <li data-aos="fade-up">
@@ -192,7 +209,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="skills-box">
+                        <div class="skills-box" data-aos="fade-up">
                             <h3>Version Control System</h3>
                             <ul class="skills-list">
                                 <li data-aos="fade-up">
@@ -204,7 +221,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="skills-box">
+                        <div class="skills-box" data-aos="fade-up">
                             <h3>Other skills</h3>
                             <ul class="skills-list">
                                 <li data-aos="fade-up">
@@ -247,7 +264,7 @@
                 </header>
                 <div class="content">
                     <div class="projects-wrapper">
-                        <div class="project-box">
+                        <div class="project-box" data-aos="fade-up">
                             <div class="img-box" data-aos="fade-up">
                                 <img src="images/Forum-preview.png" alt="Tech Forum Preview">
                             </div>
@@ -258,7 +275,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="project-box">
+                        <div class="project-box" data-aos="fade-up">
                             <div class="img-box" data-aos="fade-up">
                                 <img src="images/Nexus-preview.png" alt="Social Media preview">
                             </div>
@@ -269,7 +286,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="project-box">
+                        <div class="project-box" data-aos="fade-up">
                             <div class="img-box" data-aos="fade-up">
                                 <img src="images/Portfolio-preview.png" alt="portfolio preview">
                             </div>
@@ -294,7 +311,7 @@
                 </header>
                 <div class="content">
                     <div class="experiences-list">
-                        <div class="experience-box">
+                        <div class="experience-box" data-aos="fade-up">
                             <div class="exp-image" data-aos="fade-up">
                                 <img src="images/moderator-xiaomi.png" alt="">
                             </div>
@@ -387,6 +404,7 @@
         startEvent: 'load',
         duration: 700,
         easing: 'ease-out-cubic',
+        offset: 30
     });
   </script>
 
