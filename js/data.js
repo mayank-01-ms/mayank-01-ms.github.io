@@ -60,11 +60,11 @@ const projects = {
         imageURI: 'images/Portfolio-preview.png',
         image_alt: 'Portfolio preview'
     },
-    // fourth: {
-    //     title: 'Admin Dashboard',
-    //     imageURI: '',
-    //     image_alt: ''
-    // },
+    fourth: {
+        title: 'Admin Dashboard',
+        imageURI: 'images/AdminDashboard-preview.gif',
+        image_alt: 'Admin Dashboard preview'
+    },
     fifth: {
         title: 'JavaScript Clock App',
         imageURI: 'images/Clock-preview.png',
@@ -84,13 +84,23 @@ const projects = {
         title: 'Always On Display',
         imageURI: 'images/AOD-preview.png',
         image_alt: 'AOD preview'
+    },
+    ninth: {
+        title: 'Bus App Web',
+        imageURI: 'images/BusAppWeb-preview.png',
+        image_alt: 'Bus App Web preview'
+    },
+    tenth: {
+        title: 'Bus App',
+        imageURI: 'images/BusApp-preview.png',
+        image_alt: 'Bus App native preview'
     }
 };
 
 const projectData = {
     first: {
         title: "Tech Forum",
-        desc: `My first project built from scratch without any framework | A user-based forum / a discussion site for tech geeks.<br>
+        desc: `My first <strong>dynamic</strong> project built from scratch without any framework | A user-based forum / a discussion site for tech geeks.<br>
                 Features:<br>
                 ➤ Responsive<br>
                 ➤ Has both light and dark theme<br>
@@ -101,7 +111,7 @@ const projectData = {
                 ➤ Secure login<br>
                 ➤ SEO friendly URLs<br>
                 ➤ Admin panel to manage users and posts.`,
-        techUsed: ["HTML5", "CSS3", "JavaScript", "JQuery", "PHP", "AJAX", "MySQL"],
+        techUsed: ["HTML5", "CSS3", "JavaScript", "JQuery", "PHP", "MySQL"],
         url: "https://techatglance.tk/"        
     },
     second: {
@@ -122,7 +132,7 @@ const projectData = {
                 Sleek, modern and minimal UI.<br>
                 `,
         features: ``,
-        techUsed: ["HTML5", "CSS3", "JavaScript", "PHP", "AJAX", "MySQL"],
+        techUsed: ["HTML5", "CSS3", "JavaScript", "PHP", "MySQL"],
         url: "https://nexus-ig.cf"        
     },
     third: {
@@ -138,7 +148,17 @@ const projectData = {
         url: "https://mayank-01-ms.github.io"        
     },
     fourth:{
-
+        title: "Admin Dashboard",
+        desc: `Admin panel built to manage Nexus (a social media application).<br>
+                Features:-<br>
+                ➤ Glassmorphism UI <br>
+                ➤ Has different themes<br>
+                ➤ Shows complete stats of the application <br>
+                ➤ Perform actions such as disable,enable logins / new registerations or new posts <br>
+                ➤ Manage reports, users and admins
+                `,
+        techUsed: ["HTML5", "CSS3", "JavaScript", "PHP", "MySQL"],
+        url: ""
     },
     fifth: {
         title: "JavaScript Clock App",
@@ -175,5 +195,38 @@ const projectData = {
                 Supports both laptops and smartphones.`,
         techUsed: ["HTML5", "SCSS", "JavaScript", "Battery API"],
         url: "http://mayank-01-ms.github.io/aod"
+    },
+    ninth: {
+        title: "Bus App Web",
+        desc: ` Application designed to eliminate the need of carrying physical bus pass,
+            which we used to present before getting into our university bus.   
+            <br>
+            Features:
+            <br>
+            ➤ Minimal UI <br>
+            ➤ Single Page application <br>
+            ➤ Students can present QR code, edit and manage their profile from web <br>
+            ➤ Designed Admin panel using Material UI to manage drivers, buses, student, and their pass <br>
+        `,
+        techUsed: ["Mongo DB", "ExpressJS", "ReactJS", "NodeJS", "Material UI"],
+        url: "https://gehu-bus.herokuapp.com"
+    }, 
+    tenth: {
+        title: "Bus App",
+        desc: `
+            Android app designed to eliminate the need of carrying physical bus pass,
+            which we used to present before getting into our university bus.
+            <br>
+            Features:
+            <br>
+            ➤ Onboarding screen <br> 
+            ➤ Beautiful animations <br>
+            ➤ Minimal and clean UI <br>
+            ➤ Login and new registration <br> 
+            ➤ Both user groups can manage and edit their profile from within the app <br>
+            ➤ Student's data is kept offline on the app. So there is no need for a network unless logged out manually <br>
+        `,
+        techUsed: ["React Native"],
+        url: "https://gehu-bus.herokuapp.com/downloads/app.apk"
     }
 }
