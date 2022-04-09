@@ -56,44 +56,44 @@ const projects = {
         image_alt: 'Social Media preview'
     },
     third: {
-        title: 'Portfoilo Website',
-        imageURI: 'images/Portfolio-preview.png',
-        image_alt: 'Portfolio preview'
-    },
-    fourth: {
         title: 'Admin Dashboard',
         imageURI: 'images/AdminDashboard-preview.gif',
         image_alt: 'Admin Dashboard preview'
     },
-    fifth: {
+    fourth: {
         title: 'JavaScript Clock App',
         imageURI: 'images/Clock-preview.png',
         image_alt: 'Clock preview'
     },
-    sixth: {
+    fifth: {
         title: 'Weather App (PWA)',
         imageURI: 'images/Weather-preview.png',
         image_alt: 'Weather preview'
     },
-    seventh: {
+    sixth: {
         title: 'Real-time Messenger',
         imageURI: 'images/Messenger-preview.png',
         image_alt: 'Messenger preview'
     },
-    eigth: {
+    seventh: {
         title: 'Always On Display',
         imageURI: 'images/AOD-preview.png',
         image_alt: 'AOD preview'
     },
-    ninth: {
+    eigth: {
         title: 'Bus App Web',
         imageURI: 'images/BusAppWeb-preview.png',
         image_alt: 'Bus App Web preview'
     },
-    tenth: {
+    ninth: {
         title: 'Bus App',
         imageURI: 'images/BusApp-preview.png',
         image_alt: 'Bus App native preview'
+    },
+    tenth: {
+        title: 'Music Streaming App',
+        imageURI: 'images/MusicApp-preview.png',
+        image_alt: 'Music App preview'
     }
 };
 
@@ -135,19 +135,7 @@ const projectData = {
         techUsed: ["HTML5", "CSS3", "JavaScript", "PHP", "MySQL"],
         url: "https://nexus-ig.cf"        
     },
-    third: {
-        title: "Portfolio Website",
-        desc: `My Portfolio website built from scratch with modern, minimal, and sleek UI.
-                Purely coded by me without any frameworks. <br>
-                Features: <br>
-                ➤ Responsive <br>
-                ➤ Supports dark theme <br>
-                ➤ Minimal UI <br>
-                    `,
-        techUsed: ["HTML5", "CSS3", "JavaScript"],
-        url: "https://mayank-01-ms.github.io"        
-    },
-    fourth:{
+    third:{
         title: "Admin Dashboard",
         desc: `Admin panel built to manage Nexus (a social media application).<br>
                 Features:-<br>
@@ -160,7 +148,7 @@ const projectData = {
         techUsed: ["HTML5", "CSS3", "JavaScript", "PHP", "MySQL"],
         url: ""
     },
-    fifth: {
+    fourth: {
         title: "JavaScript Clock App",
         desc: `Clock app built using Vanilla JavaScript.<br>
                 Features:-<br>
@@ -169,7 +157,7 @@ const projectData = {
         techUsed: ["HTML5", "CSS3", "Vanilla JavaScript"],
         url: "https://mayank-01-ms.github.io/clock"
     },
-    sixth: {
+    fifth: {
         title: "Animated Weather App (PWA)",
         desc: `Get 7 days full forecast in a beautifully designed UI based on the latest trend glassmorphism. 
                 <br>
@@ -182,13 +170,13 @@ const projectData = {
         techUsed: ["HTML5", "CSS3", "Vanilla JS"],
         url: "https://mayank-01-ms.github.io/weather"
     },
-    seventh: {
+    sixth: {
         title: "Real time chat messenger",
         desc: "Real time chat messenger with Whatsapp like UI",
         techUsed: ["ReactJS", "Material UI", "Firebase CLI", "Firebase hosting"],
         url: ""
     },
-    eigth: {
+    seventh: {
         title: "Always On Display",
         desc: `A web-based Always On Display built using Battery API of the browser with the live battery status.   
                 Charger plugged in/out detection feature and a beautiful charging animation while the device is charging. 
@@ -196,7 +184,7 @@ const projectData = {
         techUsed: ["HTML5", "SCSS", "JavaScript", "Battery API"],
         url: "http://mayank-01-ms.github.io/aod"
     },
-    ninth: {
+    eigth: {
         title: "Bus App Web",
         desc: ` Application designed to eliminate the need of carrying physical bus pass,
             which we used to present before getting into our university bus.   
@@ -211,7 +199,7 @@ const projectData = {
         techUsed: ["Mongo DB", "ExpressJS", "ReactJS", "NodeJS", "Material UI"],
         url: "https://gehu-bus.herokuapp.com"
     }, 
-    tenth: {
+    ninth: {
         title: "Bus App",
         desc: `
             Android app designed to eliminate the need of carrying physical bus pass,
@@ -227,6 +215,21 @@ const projectData = {
             ➤ Student's data is kept offline on the app. So there is no need for a network unless logged out manually <br>
         `,
         techUsed: ["React Native"],
+        url: "https://gehu-bus.herokuapp.com/downloads/app.apk"
+    },
+    tenth: {
+        title: "Music Streaming App",
+        desc: `
+            Music streaming Progressive Web Application 
+            <br>
+            Features:
+            <br>
+            ➤ Music Streaming Web Application <br> 
+            ➤ Minimal and clean UI <br>
+            ➤ Playlist creation feature with custom songs <br>
+            ➤ No ads 😂😂 <br>
+        `,
+        techUsed: ["ReactJS", "ExpressJS", "MySQL"],
         url: "https://gehu-bus.herokuapp.com/downloads/app.apk"
     }
 }
