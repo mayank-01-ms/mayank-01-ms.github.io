@@ -230,6 +230,6 @@ const projectData = {
             ➤ No ads 😂😂 <br>
         `,
         techUsed: ["ReactJS", "ExpressJS", "MySQL"],
-        url: "https://gehu-bus.herokuapp.com/downloads/app.apk"
+        url: ""
     }
 }
